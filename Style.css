@@ -1,0 +1,95 @@
+body{
+    background-color: darkslategrey;
+}
+
+    
+#edge{
+    background-color: white;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+
+#contact{
+    
+     width: 1250px;
+    border:1px red;
+    padding:10px;
+    text-align: right;
+    position: relative;
+    bottom:  40px;
+}
+
+#summaryText{
+     
+    position: relative;
+    left: 40px;
+}
+
+
+#xp{
+    width: 500px;
+    border:1px red;
+    padding:10px;
+      position: relative;
+    left: 40px;
+}
+
+
+
+
+#projects{
+    width: 500px;
+    border:1px red;
+    padding:10px;
+    text-align: left;
+    
+    position: relative;
+    left: 40px;
+    
+
+}
+
+
+#gameImages{
+    
+    width: 500px;
+    border:1px red;
+    padding:10px;
+    
+      position: relative;
+    left: 40px;
+    
+        
+    
+}
+
+
+
+
+
+
+
+
+                
+                
+
+
+
+
+
+
+
+                
+                
+            
+            
