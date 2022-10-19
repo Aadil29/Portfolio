@@ -1,6 +1,10 @@
 body{
     background-color: darkslategrey;
+    margin:0;
+    
 }
+
+
 
     
 #edge{
@@ -36,14 +40,6 @@ h1{
 }
 
 
-#xp{
-    width: 500px;
-    border:1px red;
-    padding:10px;
-      position: relative;
-    left: 40px;
-}
-
 
 
 
@@ -60,16 +56,63 @@ h1{
 }
 
 
-#gameImages{
+.images {
     
-    width: 500px;
-    border:1px red;
-    padding:10px;
     
-      position: relative;
-    left: 40px;
     
-        
+
+    
+    --gap: 16px;
+	--num-cols: 1;
+	--row-height: 200px;
+   
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+    
+}
+
+.images>img {
+    
+	width: 100%;
+	height: 100%;
+    object-fit: scale-down;
+}
+
+.image-col-2 {
+	grid-column: span 1;
+}
+
+
+.image-row-2 {
+	grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#video{
     
 }
 
