@@ -16,11 +16,13 @@ body{
 
 
 .video{
-            margin: auto;
-    float: left;
-    padding: 16px;
-    width: 150px;
-    height: 38px;
+    
+    
+    margin-right: auto;
+    padding:220px;
+    float: right;
+    width: 200px;
+    height: 50px;
 
     
   
@@ -47,8 +49,13 @@ h1{
 
 #summaryText{
      
+       border:1px red;
+    padding:10px;
+    text-align: left;
+    
     position: relative;
     left: 40px;
+    
 }
 
 
