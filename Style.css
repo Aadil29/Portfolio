@@ -1,20 +1,32 @@
 body{
-    background-color: darkslategrey;
     margin:0;
     
-}
-
-
-
-    
-#edge{
-    background-color: white;
+      background-color: white;
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-   
+    
+    
     
 }
+
+
+
+
+
+
+.video{
+            margin: auto;
+    float: left;
+    padding: 16px;
+    width: 150px;
+    height: 38px;
+
+    
+  
+    
+}
+
 
 
 h1{
@@ -59,11 +71,8 @@ h1{
 .images {
     
     
-    
-
-    
     --gap: 16px;
-	--num-cols: 1;
+	--num-cols: 3;
 	--row-height: 200px;
    
 	box-sizing: border-box;
@@ -94,7 +103,7 @@ h1{
 
 @media screen and (max-width: 1024px) {
 	.image-grid {
-		--num-cols: 2;
+		--num-cols: 3;
 		--row-height: 200px;
 	}
 }
@@ -103,18 +112,6 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-#video{
-    
-}
 
 
 
